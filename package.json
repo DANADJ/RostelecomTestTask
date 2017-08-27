@@ -1,0 +1,15 @@
+{
+  "key": "Rostelecom_test_task",
+  "version": "1.0.0",
+  "description": "The test task for Rostelecom",
+  "main": "index.js",
+  "scripts": {
+    "buildJS": "babel src -d dist"
+  },
+  "author": "Valentin Gordienko <valentingordienkospb@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
